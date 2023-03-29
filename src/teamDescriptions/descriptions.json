@@ -1,0 +1,240 @@
+{"descriptions": [
+    {
+        "name":"test",
+        "fullName":"test",
+        "mailto":"test@mail.de",
+        "location":"Frankfurt",
+        "text":"lorem ipsum"
+    },
+    {
+        "name":"evs",
+        "fullName":"Team EVS",
+        "mailto":"DB.Systel.CommunicationServices.EVS@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Wir sind das Team EVS (Enterprise VoIP Services) und wollen mit unseren virtuellen Welten Vernetzung und Austausch (und noch mehr!) ortsunabhängig ermöglichen. Wir verantworten u.a. den Service DB WorkAdventure womit die Umgebung für die heutige Veranstaltung erstellt wurde. Daneben unterstützen wir Nutzer aus sämtlichen Konzerngesellschaften mit unseren Telefonie-Standardprodukten (z. B. DB Telefonie, Gruppenfunktionen, Tischtelefone etc.), die automatisch bereitgestellt werden. "
+    },
+    {
+        "name":"evps",
+        "fullName":"EVPS-Team",
+        "mailto":"db.systel.evps@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Das Team EVPS erbringt Services und Consulting-Leistungen zur Abdeckung der Anforderungen an die moderne, attraktive und digitale Bürokommunikation. Unser Team verantwortet die zentrale Voice over IP Plattform als Kernstück der Sprachkommunikation im DB Konzern. Dies beinhaltet eine fachliche Zusammenstellung aus Cloud Diensten und On-Premises Systemen. </p><p>Um die Verfügbarkeit und die Stabilität unserer VoIP-Plattform jederzeit sicherzustellen, betreiben wir das Test- und Innovationszentrum (TIZ) in den Adlerwerken in Frankfurt am Main. Neben unserer technischen Test-Plattform, in Form eines abgetrennten Gebäudetraktes mit verschiedenen Techniklaboren, sowie jeweils einem Präsentations- und Meetingraum, stellen wir unseren Kunden selbstverständlich auch unsere langjährige Expertise in allen Bereichen unseres Leistungsspektrums zur Verfügung. Insbesondere unterstützen wir hier beim Test- und Releasemanagement."
+    },
+    {
+        "name":"stvit",
+        "fullName":"System-Team (Vehicle IT) ",
+        "mailto":"dbs.st-vit@deutschebahn.com",
+        "location":"Frankfurt/Erfurt",
+        "text":"Wir, das System-Team Vehicle IT, verstehen uns als ein Kernteam unserer Einheit. Die „Einheit Vehicle IT and Automated Driving“ (kurz EVITA) befasst sich primär mit der Soft- und Hardware auf Schienenfahrzeugen, welche dem Komfort unserer Fahrgäste dienen – bei uns werden das ICE Portal, die Innenanzeiger der ICEs sowie noch vieles mehr entwickelt und getestet. Die Aufgabe des System-Teams ist es dabei, in seiner Rolle eines DevOps Teams, in den Laboren in den Adlerwerken in Frankfurt die Laborinfrastrukturen und Testaufbauten zu betreuen und zu verbessern. Ferner entwickeln und betreiben wir auch Backendsysteme für Schienenfahrzeuge in AWS und stellen zudem noch zentrale CI/CD Pipelines, Docker Images, Ansible Templates etc. für die anderen Teams unserer Einheit bereit. In unserem Themenspektrum vereinen wir viele moderne Tools und sind sowohl On-Premise als auch in der Cloud zuhause. </p><p>Wir bieten Praxiseinsätze einerseits standortunabhängig remote, sowie auch Vor-Ort-Einsätze am Standort Frankfurt Adlerwerke an. In Zusammenarbeit mit dem Delivery-Team Rail-IT Applications (RITA) können wir bei ernsthaftem Interesse auch Vor-Ort-Einsätze in Erfurt anbieten, da es dort auch ein (kleineres) Vehicle-IT Labor gibt."
+    },
+    {
+        "name":"sd",
+        "fullName":"Team Sales Development",
+        "mailto":"salesdevelopment@deutschebahn.com",
+        "location":"Frankfurt/Berlin/Erfurt",
+        "text":"Im Team Sales Development verantworten wir die strukturierte Weiterentwicklung des Portfolios und die Marketing-/Kommunikationsaktivitäten im Kontext Mobilität. Dabei steht die Außenwirkung unseres Clusters BSM als Digitalpartner für unsere DB Geschäftsfelder und Innovationstreiber für unsere Reisenden im Fokus."
+    },
+    {
+        "name":"nemo",
+        "fullName":"Team NEMO",
+        "mailto":"DBS.Mobility.CX.NEMO@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Unser Spezialgebiet ist die Entwicklung von nativen Mobile Apps für Android und iOS mit Backend-Services auf dem Business Hub. Wir decken alle Bereiche (Backend, Frontend, UX/UI) für die Entwicklung einer App ab. Unser aktuelles Projekt ist die BahnBonus App und BahnBonus Services."
+    },
+    {
+        "name":"gravity",
+        "fullName":"Team Gravity",
+        "mailto":"gravity-verteiler@deutschebahn.com",
+        "location":"Erfurt",
+        "text":"Wir machen Softwareentwicklung mit folgenden Schwerpunkten: </p><p>Cross-Platform-Entwicklung mit Flutter und React Native, REST-APIs mit Java / Spring Boot, NodeJS-Backend, Datenbanken (PostgreSQL), Deployment mit Pipeship / DBCS."
+    },
+    {
+        "name":"eese",
+        "fullName":"Enterprise Einheit Strategic Enablement",
+        "mailto":"Mareen.Mahlo@deutschebahn.com ",
+        "location":"Frankfurt/Berlin",
+        "text":"Als Einheit Strategic Enablement unterstützen wir die Cluster der DB Systel als Digitalpartner der DB Geschäftsfelder wirksam zu werden. Dies geschieht über gemeinsam koordinierte Angebote: Vertriebs- und Marketingunterstützung, Portfolioentwicklung & Partnering, Strategieentwicklung & strategische Veränderung und interne Kommunikation sowie PR. </p><p>Für die Teams und Unternehmensrollen in der Einheit sorgt die Einheit für administrative Entlastung, Themen-Alignment und Fokussierung sowie eine thematische und organisatorische Heimat. Für die DB Gesellschaften gibt die Einheit mit ihrem Portfolio Orientierung und Information, bietet Interaktion in Digitalthemen und Strategiealignment und sie liefert einheitliche Kanäle und Botschaften mit attraktiven Formaten. Für Business Development Circle, Corporate Development Circle und die Geschäftsführung sorgen die Teams der Einheit für ein kraftvolles Enablement in der Unternehmenssteuerung und Zukunftsgestaltung. Und sie sorgen für Aufbereitung und Kommunikation aller relevanten Themen für die Mitarbeitenden von DB Systel sowie die Partner und Gesellschafter der DB Systel in der Bahn. Die DB externe Öffentlichkeit wird über Digitalthemen informiert unter Nutzung einheitlicher Kanäle und Botschaften; dies stärkt die Imagewirkung von Digitalthemen für die Marke Deutsche Bahn. Teams: Corporate Marketing, Business Strategy, Partner-Account-Management (PAM), Corporate Communications, Digital Foresight, R&D Support Team, Corporate Creation, Strategy & Change, Corporate Sales, Business Development Core Team (BDC Team), Human Centered Organization (HCO), QTEAM"
+    },
+    {
+        "name":"sepia",
+        "fullName":"Team Sepia",
+        "mailto":"sepia.team@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Wir konstruieren und implementieren die Zug ITK Plattform (ZIP) im ICE, welche die Basis der komfortrelvanten und betrieblichen IT-Anwendungen bildet. Zu diesen Anwendungen gehören z.B. das betriebliche WLAN, die Reisendeninformationen (Anzeiger innen und außen, Sitzplatzanzeiger), das ICE Portal und weitere Services, welche das digitale Reiseerlebnis für unserer Fahrgäste stärken. Die Basis bilden eine Linux-Distribution und die Infrastructure as Code-Software Chef. </p><p>Dabei ermöglichen wir jedoch nicht nur den Betrieb der Anwendung, sondern stellen auch Fahrzeuginformationen (u. a. Geschwindigkeit, Position, Verkehrliche Zugnummer) via Schnittstellen bereit, die wir aus dem Herstellerbereich des Zuges erhalten, und kombinieren sie mit anderen Datenquellen. Auf unserer Plattform betreiben und entwickeln wir sowohl virtuelle Maschinen, als auch Container und gehen jeden Tag ein Schritt in Richtung reiner Containerplattform mit dem Ziel, eine Containerplattform auf der Edge anbieten zu können. Die Anwendungen auf dem Zug basieren dabei größtenteils auf den Programmiersprachen Java und Python. Um die Plattform auf dem Zug mit Informationen versorgen und überwachen zu können, entwickeln und betreiben wir Backoffice-Systeme in der Cloud. Unsere zentrale Komponente \"Operation Center\" basiert dabei auf Spring Boot und Angular. Weitere Informationen können in Confluence gefunden werden: <a href='https://vehicleit.jaas.service.deutschebahn.com/confluence/display/TEAMFLEXFIT/Werbetext'  target=\"_blank\">https://vehicleit.jaas.service.deutschebahn.com/confluence/display/TEAMFLEXFIT/Werbetext</a>"
+    },
+    {
+        "name":"nukleus",
+        "fullName":"Team Nukleus",
+        "mailto":"nukleus@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Das Cluster IT Core Services wird das Netzwerk Portfolio neu aufbauen. Statische IP-Ports sind heute nicht mehr zeitgemäß und werden von den Partner:innen der DB nicht mehr angefragt. Das Team Nukleus hat den Auftrag, basierend auf der DB Systel Plattformstrategie mit aktuellen Technologien und Herangehensweisen ein Netzwerk der Zukunft zu entwickeln. Das Ziel: Die Leistungen für die Partner:innen der DB künftig schneller und bedarfsgerechter zu produzieren. </p><p>Wie wir das schaffen? Mit hochmotivierten Menschen und dem Mut Neues zu gestalten! </p><p> "
+    },
+    {
+        "name":"pel",
+        "fullName":"PEL-Team",
+        "mailto":"lup@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Wir beraten Kunden zum Thema Performance und möchten sicherstellen, dass Anwendungen stabil genutzt und die Antwortzeiten für die User „Spaß machen“. </p><p>Deshalb analysieren wir gemeinsam mit dem Kunden ihre Systeme und stellen mit unseren Last- und Performancetests sicher, dass das System den Anforderungen gerecht wird und sich stetig verbessert. Dazu schreiben wir Java-Scripte, bauen die Infrastruktur auf und analysieren Parameter des Systems (CPU/Datenbank etc.). <a href=\"https://db-planet.deutschebahn.com/pages/e2e-quality-abv/apps/content/inhalt-2\"> DB Planet </a>"
+    },
+    {
+        "name":"dbds",
+        "fullName":"Team DB Digital Signage",
+        "mailto":"db-digitalsignage@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Die richtige Information in der richtigen Situation am richtigen Ort zur Verfügung zu stellen, bedeutet den Erfolg für Unternehmen. Wir von DB Digital Signage haben es uns zum Ziel gesetzt, unseren Kunden zu ermöglichen, ihre Informationen in Form von Bild, Text und/oder Ton ihrer Zielgruppe zugänglich zu machen. Moderne Displays lassen sich von ihren Betrachtern außerdem interaktiv steuern. Über unsere Content Management Systeme können Informationen zentral und webbasiert erstellt, gemanagt und auf dezentral vernetzte Monitore verteilt werden.  Hierbei kann für jede Inhalt entschieden werden, ob diese automatisiert und zeitgesteuert oder direkt manuell veröffentlich werden soll. Die Anwendungsmöglichkeiten von DB Digital Signage sind nahezu unbegrenzt. Informationen können in Werken, Reisezentren, Lounges, Foyers, Videoräumen, Gebäuden, Bahnstätten und vielen anderen Orten digital, audio-visuell und interaktiv verbreitet werden."
+    },
+    {
+        "name":"tss",
+        "fullName":"Team Small Solutions",
+        "mailto":"dbs.smallsolutions@deutschebahn.com",
+        "location":"Frankfurt/Berlin",
+        "text":"Wir als Small Solution Teams beraten und entwickeln Projektleistungen auf Basis von Oracle APEX. Durch vielfältige Einsatzmöglichkeiten digitalisieren wir mit unseren Lösungen den DB Konzern. Wiederkehrende Kundenanfragen haben wir als Services/Produkte geschnitten, die nun die tägliche Arbeit unserer Kunden in vielen Situationen vereinfachen."
+    },
+    {
+        "name":"mox",
+        "fullName":"Team MOX (Mobility Operations Experience)",
+        "mailto":"db.seec.lsp@deutschebahn.com",
+        "location":"Frankfurt/Erfurt",
+        "text":"Unsere Schwerpunkte sind: Cloud Adminstration (AWS), Cloudformation mittels CDK, EC2 Migration auf ECS und Fargate (Containerisierung), RDS Datenbanken Oracle, Postgres, MS SQL, CDK-Pipelines für Microservices, Kundenkalkulationen, Monitoringlösung mittels Cloudwatch und Lambda."
+    },
+    {
+        "name":"scope",
+        "fullName":"Team SCOPE",
+        "mailto":"scope@deutschebahn.com",
+        "location":"Berlin/Erfurt",
+        "text":"Unsere Schwerpunkte sind: AWS Cloud, Agiles Vorgehensmodell SCRUM oder KANBAN, ECS, EKS, EFS, CDK, Typscript, Datenbanken SQL, Oracle, Linux und Windows, CI/CD Pipelines, Docker Container, Monitoring, Kundenfeedback / QR Codes Scanner"
+    },
+    {
+        "name":"mop",
+        "fullName":"Team MOP (Managed Optimized Passenger Transport)",
+        "mailto":"SEEC.STPersonenverkehr@deutschebahn.com",
+        "location":"Frankfurt/Berlin/Erfurt",
+        "text":"Unsere Schwerpunkte sind: Cloud Adminstration (AWS), AWS CDK, Typescript/Javascript, Golang, Linux (AmazonLinux2), Container (ECS/EKS), Kubernetes, GitLab CI, Datenbanken (Postgres/Mariadb), Monitoring (Grafana/Prometheus)"
+    },
+    {
+        "name":"sab",
+        "fullName":"Einheit SAB (Smart Application Builder)",
+        "mailto":"sab.UTEinheit@deutschebahn.com",
+        "location":"Frankfurt/Berlin",
+        "text":"Die Einheit Smart Application Builder (SAB) bietet ihren Partnern im DB-Konzern die Entwicklung und den Betrieb von individuellen Software-Lösungen (Produkt) an. </p><p>Die Umsetzung erfolgt nach agilen Methoden und folgt dem DevOps-Ansatz. Jedes Produkt wird durch eines unserer SAB-Teams betreut und der Product Owner des Partners ist Teil des Teams. Das SAB-Team und der Partner-PO stellen sicher, dass der Nutzen im Fokus steht. </p><p>Wir (SAB) bieten Praxisphasen für Studierende in einem unserer DevOps-Teams an. Der Fokus liegt dabei auf der Software-Entwicklung im Backend und Frontend sowie dem Betrieb der Anwendungen. Wir setzen dabei vor allem folgende Technologien ein: HTML, CSS, TypeSkript, React, Java, Kotlin, Spring Boot, DBCS OpenShift, Pipeship, Helm"
+    },
+    {
+        "name":"bcm",
+        "fullName":"Team BCM",
+        "mailto":"Thomas.T.Goerlich@deutschebahn.com",
+        "location":"Frankfurt/Berlin/Erfurt",
+        "text":"Wir stellen sicher, dass die Geschäftsprozesse der Organisation bei Eintritt schädlicher Ereignisse (IT-, Dienstleisterausfälle, Pandemien, ...) fortgeführt werden können. Dafür etablieren wir ein Business Continuity Management System. Unser Ziel ist es, sicherzustellen, dass geschäftskritische Prozesse nicht (oder nur temporär) unterbrochen werden und die wirtschaftliche Existenz des Unternehmens auch bei einem größeren Schadensereignis gesichert bleibt. </p><p>Schwerpunkte: Business Continuity Management, IT-Notfallvorsorge und IT-Notfallmanagement sowie Availability Management"
+    },
+    {
+        "name":"dv",
+        "fullName":"Einheit DataVision",
+        "mailto":"Data.Vision@deutschebahn.com",
+        "location":"Frankfurt/Berlin/Erfurt",
+        "text":"Die Einheit Data Vision ist Teil des ZOD Netzwerkes. Es besteht eine enge Zusammenarbeit und ein Austausch mit den Einheiten Data Intelligence und Data X. Die Einheit Data Vision bedient, in den über den Teams betreuten Projekten, ein breites Spektrum an technischen, funktionalen Anforderungen im Umfeld der IT-Beratung und Entwicklung. </p><p>In der Strategieberatung liegt der Schwerpunkt auf den Fragen wie Daten genutzt werden können und welche Voraussetzungen dafür erfüllt sein müssen. Hier sind übergreifendes technisches Fachwissen, Kenntnisse der Datenarchitektur, Berater KnowHow sowie eine gute Vernetzung in der Systel und im Konzern mit Kenntnissen der vorhandenen Datenstrukturen wichtig.  Im Bereich Data Engineering und Data Analytics unterstützen wir unsere Kunden aus ihren Daten die erforderlichen Erkenntnisse zu gewinnen, um Entscheidungen effektiver treffen zu können. Hierzu werden unter anderem Visualisierungstools wie PowerBI, Qlik und Tableau eingesetzt sowie Techniken diese in Webanwendungen zu integrieren. Konkrete weitere Themen, die über die Teams der Einheit betreut werden, sind die DB Suche, der Datenkatalog oder den MashHub Service. Neben den spezifischen Tool- oder Programmiersprachen-Kenntnissen werden dabei immer auch Grundlagen im Bereich Business Engineering, DevOps und Cloudumfeld bei den Kolleginnen und Kollegen in den Teams benötigt. </p><p>Teams: Data Strategy (Datenstrategie, Data Governance, Architekturberatung Big Data), Data Consulting Team (Business Engineering, Anforderungsmanagement, Vorstudien, Prozessanalysen), Enable Data Driven Insights(Data Analytics, Data Engineering, Data Management, Datenintegration,  Embedded Analytics), Data.Cat (Datenkatalog, Beratung, Metadaten-Management), WIRED Webentwicklung, MashHub, Embedded Analytics, Beratung ), Search & Identity (DevOps, Wissenssysteme, Search Engines, Natural Language Processing), Graphic Data Explorer (Data Visualisations und Data Analytics)"
+    },
+    {
+        "name":"tulip",
+        "fullName":"Team Transport & Logistics IT-Projects (TuLIP)",
+        "mailto":"DBS.CC.TuL.DT.TuLIP@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Das Delivery Team Transport & Logistics (TuLIP) im Business Solutions Cluster Transport & Logistics ist ein motiviertes und engagiertes Projektleiter-Team, welches heute bereits eine Vielzahl an kleinen und großen Projekten für unsere Konzernpartner umsetzt. Darunter sind auch Großprojekte, die wir in einer komplexen IT-Systemlandschaft umsetzen und in denen wir bestehende IT-Systeme modernisieren, erweitern und ersetzen oder neue IT-Systeme anbinden. </p><p>Unsere Schwerpunkte: Projektleitung (z.B. Projektanbahnung, Vertragsmanagement, Anforderungsmanagement, Projektsteuerung, Planung, Projektstatusreporting, Leistungsverrechnung usw.), Projektmanagement-Office, Projekt-Beratung, IT-Systemarchitektur innerhalb von Projektvorhaben."
+    },
+    {
+        "name":"infinity",
+        "fullName":"Einheit Infinity",
+        "mailto":"infinity@deutschebahn.com",
+        "location":"Frankfurt/Erfurt",
+        "text":"Unsere Einheit besteht aus 8 festen Teams die sich alle im Bereich der Full-Stack Softwareentwicklung bewegen. </p><p>Technologisch decken wir alle Bereiche der Softwareentwicklung ab. Von App-Entwicklung, Web-Frontend bis Backend wird alles von uns bearbeitet. </p><p>Beispielprojekte sind Travio(Vertriebs-App), Mars (Konzerninventur), Fassi/Move(für TFs), Formulargenerator-Service."
+    },
+    {
+        "name":"az4db",
+        "fullName":"Team AZ4DB",
+        "mailto":"Az4DB@deutschebahn.com",
+        "location":"Frankfurt/Berlin/Erfurt",
+        "text":"Unser Team macht Azure Betrieb für unterschiedliche Partner. Wir richten unser Hauptaugenmerk auf Automatisierung und deployen die Infrastrukturen unserer Verfahren weitestgehend automatisiert über Azure DevOps Pipelines und mit Armtemplates (derzeit)."
+    },
+    {
+        "name":"sp4db",
+        "fullName":"Team SP4DB",
+        "mailto":"DBS.BS.Infra.DCaM.DT-SP4DB@deutschebahn.com",
+        "location":"Frankfurt/Berlin",
+        "text":"Wir realisieren für unsere Kunden und Partner ihre Digitalisierungsstrategie rund um das Thema Zusammenarbeit. Mit dem Schwerpunkt auf SharePoint und aktuellen Microsoft-Technologien Beraten & entwickeln wir gemeinsam in einem interdisziplinären Team Lösungen -von der Idee bis zum erfolgreichen Go-live. </p><p>Wir sind ein Team mit dem Schwerpunkt Microsoft und den entsprechenden Frameworks. (.net Framework, .net Core, ASP.NET,). Wir entwickeln unsere Backend-Logik in C#. Im Frontend-Bereich nutzen wir JavaScript/TypeScript, Frameworks wie REACT. Wir entwickeln sowohl Lösung für on Premise, als auch im Cloud-Umfeld (MS365, SharePointOnline). Auch Docker-Lösung im Umfeld von Container-Plattformen, wie OpenShift sind bei uns im Einsatz.  "
+    },
+    {
+        "name":"bdcsdbc",
+        "fullName":"Teams BDCS/DBC",
+        "mailto":"DBS.BS.Infra.DCaM.DT-BDCS@deutschebahn.com",
+        "location":"Frankfurt/Berlin",
+        "text":"Das Team BDCS kümmert sich um Leistungen rund um das Produkt CDE – eine Kollaborationsplattform für Bauprojekte, die modellbasiert Planen und Bauen. DBC ist ein klassisches Beraterteam, das kurz- und mittelfristige Beauftragungen im Umfeld Projekt- und Anforderungsmanagement umsetzt. Beide Teams sind Teil der „Einheit Digital Construction and Maintenance“, welche das digitale Planen, Bauen und Betreiben von Infrastrukturen der Deutschen Bahn vorantreibt und unterstützt."
+    },
+    {
+        "name":"co2ingpn",
+        "fullName":"Team Co2inGPN",
+        "mailto":"Thomas.Heydemann@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Wir beraten unsere Partner (zurzeit DB Netz) zu komplexen Digitalisierungsinitiativen. Wir ziehen andere Delivery-Teams der DB Systel hinzu, um das für eine Lösung benötigte Leistungsportfolio zusammenzubringen und zu koordinieren. Dabei engagieren wir uns in Wertschöpfungsnetzwerken und Verbundprozessen, arbeiten aber auch in konkreten Umsetzungsprojekten mit, die primär auf Ausbaufelder der \"Starken Schiene\" einzahlen. So erreichen wir einen langfristigen Kundennutzen."
+    },
+    {
+        "name":"moi",
+        "fullName":"Team MOI",
+        "mailto":"Rene.Gravelius@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Wer sind wir? </p><p>Wir sind das Team: „Delivery-Team Managed Optimized Infrastructure“. Das agile Team besteht aktuell aus 9 Mitgliedern: Agility-Master, Produkt-Owner und Umsetzungsteam (7 Mitglieder). </p><p>Woran arbeitet das Team inhaltlich? </p><p>Betrieb von „managed optimized“ Anwendungen in der AWS-Cloud. Dies umfasst von Beratung, Angebotserstellung, Architekturkonzeption, Bereitstellung bis hin zum technischen Anwendungsbetrieb den kompletten Lifecycle einer IT-Anwendung. Zusätzlich hat das Team eigenständig Entwicklung und Wartung für kleine Anwendungen übernommen (Anlehnung an DevOps Gedanken). </p><p>Techstacks: Amazon Web Services (AWS): CloudFormation (IaC), Code-Pipeline, CodeCommit, ECS, Lambda, EC2, S3, etc. sowie Bash-Scripting, Docker und Python"
+    },
+    {
+        "name":"traction",
+        "fullName":"Team TrAction",
+        "mailto":"TrAction@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Wir sind Team TrAction – ein Team der Einheit Sales and Timetabling Solutions. Wir sind in verschiedenen Projekten unseres Partners DB Netz eingesetzt. In IFP (Integrierte Fahrplan Plattform) modernisieren wir gemeinsam mit Kollegen:innen aus anderen Teams und unserem Partner die Systeme der Fahrplan-IT auf Basis einer Microservice-Architektur. Dadurch ermöglichen wir eine effizientere Erstellung der Fahrpläne für den Netz- und Gelegenheitsverkehr, sowie für den Baufahrplan. Des Weiteren arbeiten wir im Projekt TPN (Trassenportal Netz), mit dem die DB Netz eine einheitliche Schnittstelle für die Bestellung von Trassen und die Entgegennahme von Angeboten bereitstellt. Auch im Projekt KuP (Kapazität und Pünktlichkeit) unterstützen wir, um Störungen zu verringern und damit die Pünktlichkeit zu verbessern. Mit unserer Arbeit leisten wir einen wesentlichen Beitrag zur Modernisierung und Weiterentwicklung der Fahrplan-IT."
+    },
+    {
+        "name":"tsfrotp",
+        "fullName":"Team Solutions for Rail Operational Timetable Provisioning ",
+        "mailto":"Oliver.Wolf@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Wir bieten Lösungen für den Eisenbahnbetrieb. Mit unsere Software stellen wir sicher, dass eisenbahnbetriebliche Daten fachgerecht aufbereitet werden und verschiedenen Abnehmern übergeben werden. Somit stellen wir unter anderem Sicher, dass die DB Netz AG ihre Trassenentgelte fakturieren kann. DevOps und eine enge Verzahnung mit unserem Partner sind unsere Leitplanken."
+    },
+    {
+        "name":"tdosc",
+        "fullName":"Team DevOps Solutions – Cloud",
+        "mailto":"DOSBox@deutschebahn.com",
+        "location":"Frankfurt/Erfurt",
+        "text":"Das Team DOS bietet ganzheitliche DevOps Lösungen an. Bei uns lernst du wie andere Ausbildungszweige miteinander interagieren und bekommst eine Perspektive in das vernetzte Arbeiten. Zu unseren Bereichen zählen bspw. Softwareentwicklung inkl. automatisierter Tests, Architektur-Konzeption, Containerdienste, Datenbanken, Azure Cloud Dienste."
+    },
+    {
+        "name":"polaris",
+        "fullName":"Team doServices Polaris",
+        "mailto":"doServices.Polaris.Team@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Im Team doServices Polaris dreht sich alles um das Thema APIs. Zusammen mit Teams aus verschiedenen Konzerntöchtern erarbeiten wir Schnittstellen, um Daten schnell und standardisiert verfügbar zu machen. Wir arbeiten mit modernen Java-Frameworks und bieten Einblicke in die Arbeit eines Devops-Teams"
+    },
+    {
+        "name":"disco",
+        "fullName":"Teams BBCS  und DISCO",
+        "mailto":"bbcs@deutschebahn.com;disco@deutschebahn.com",
+        "location":"Berlin",
+        "text":"Das Team BBCS ist ein Berliner Beraterteam. Wir legen den Schwerpunkt auf Digitalisierungsberatung für Bahngesellschaften in Berlin. Wir begleiten den Kunden von der Ideenphase bis hin zur Umsetzung des Projekts.  Das Team DISCO ist ein in Berlin und Frankfurt angesiedeltes Beraterteam. Wir legen den Schwerpunkt auf die Operationalisierung von Strategien. D.h. wir beraten den Kunden ausgehend von seiner IT-Strategie hin zu möglichen Lösungen und Umsetzungen."
+    },
+    {
+        "name":"core",
+        "fullName":"Team Core",
+        "mailto":"Yannic.Roesch@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":""
+    },
+    {
+        "name":"ass3",
+        "fullName":"Team Application Security Specialist 3",
+        "mailto":"db.systel.team.ass3@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Das Team Application Security Specialists 3 (AppSec 3) führt im Verbund mit unseren Schwesterteams AppSec 1 & 2 Penetrationstests und Beratungen rund um die sichere Softwareentwicklung durch. Wir sind also die \"Hacker\" der DB Systel. Die BA-Studierenden entwickeln Software in Python, um bestimmte Angriffe auf Webanwendungen oder andere Systeme zu automatisieren. Wir würden uns sehr freuen, wenn du deine Abschlussarbeit bei uns schreiben würdest. Gerne unterstützen wir die Studierenden dabei mit unserer Erfahrung in der Betreuung von Bachelor- und Masterarbeiten. Um den Studierenden einen Einblick in unsere Arbeit zu geben, nehmen wir sie während der Praxisphase auch zu Penetrationstests mit. Vorkenntnisse in den Bereichen Python, Kommandozeile, Git, Netzwerk (TCP/IP) & Docker sind wünschenswert, aber nicht notwendig. Ist dein Interesse geweckt? Oder hast du noch Fragen? Dann melde dich bei <a href='mailto:tim.stoffel@deutschebahn.com'>Tim Stoffel</a>  oder <a href='mailto:sebastian.lippmann@deutschebahn.com'>Sebastian Lippmann</a>"
+    },
+    {
+        "name":"ciso",
+        "fullName":"Team CISO ",
+        "mailto":"db.systel.security@deutschebahn.com",
+        "location":"Frankfurt",
+        "text":"Wir sorgen dafür das unsere IT Sicherheitsrisiken transparent werden #Governance #Phishing-Mail Kampagne #Richtlinie #ISMS"
+    }
+]}

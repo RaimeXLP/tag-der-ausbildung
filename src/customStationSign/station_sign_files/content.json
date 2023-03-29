@@ -1,0 +1,89 @@
+{
+    "tafel": {
+        "misc": {
+            "header": "Zeitplan Frankfurt(Main)Hbf",
+            "gelbeLeiste":{
+                "col1":"Zeit",
+                "col2":"Nach",
+                "col3":"Über",
+                "col4":"Gleis"
+            },
+            "unterschrift":"",
+            "links": []
+        },
+        "content": [
+            {"eintrag": {
+                "col1":{
+                    "zeit":"8:45",
+                    "zugnummer":"Hauptbühne"
+                },
+                "col2": "Begrüßung",
+                "col3": {
+                    "whiteText":"Ankommen und Begrüßung an der Hauptbühne",
+                    "yellowText":""
+                },
+                "col4": "0"
+            }},
+            {"eintrag": {
+                "col1":{
+                    "zeit":"9:00",
+                    "zugnummer":"Hauptbühne"
+                },
+                "col2": "Systel-Slam",
+                "col3": {
+                    "whiteText":"Vorträge über die Systel",
+                    "yellowText":""
+                },
+                "col4": "0"
+            }},
+            {"eintrag": {
+                "col1":{
+                    "zeit":"10:00",
+                    "zugnummer":"Büros"
+                },
+                "col2": "Marktstände",
+                "col3": {
+                    "whiteText":"Fahrt mit den Zügen zu den Standorten",
+                    "yellowText":""
+                },
+                "col4": "1-8"
+            }},
+            {"eintrag": {
+                "col1":{
+                    "zeit":"12:00",
+                    "zugnummer":"Pause"
+                },
+                "col2": "Mittagspause",
+                "col3": {
+                    "whiteText":"Eine wohlverdiente Pause.",
+                    "yellowText":""
+                },
+                "col4": "0"
+            }},
+            {"eintrag": {
+                "col1":{
+                    "zeit":"13:00",
+                    "zugnummer":"Büros"
+                },
+                "col2": "Marktstände",
+                "col3": {
+                    "whiteText":"Fahrt mit den Zügen zu den Standorten",
+                    "yellowText":""
+                },
+                "col4": "1-8"
+            }},
+            {"eintrag": {
+                "col1":{
+                    "zeit":"15:00",
+                    "zugnummer":"Hauptbühne"
+                },
+                "col2": "Abschluss",
+                "col3": {
+                    "whiteText":"Abschliessende Worte an der Hauptbühne",
+                    "yellowText":""
+                },
+                "col4": "0"
+            }}
+        ]
+    }
+}

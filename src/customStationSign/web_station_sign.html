@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://iris.noncd.db.de/wbt/js/index.html?bhf=FF -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xmlns:h="http://java.sun.com/jsf/html">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Web-Bahnhofstafel</title>
+		<style>
+			/*Dieses Standard-Stylesheet wird aufgerufen, wenn für eine WBT im Tafelmodus kein anderes Stylesheet angegeben wird. */
+
+            /*#000080 navy blue*/
+            /*#FFFF00 yellow*/
+            /*#FFFFFF white*/
+            /*reseting browser specific values*/
+            html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+                background: none repeat scroll 0 0 transparent;
+                border: 0 none;
+                font-size: 100%;
+                margin: 0;
+                outline: 0 none;
+                padding: 0;
+                vertical-align: baseline;
+            }
+            ol, ul {
+                list-style: none outside none;
+            }
+            blockquote, q {
+                quotes: none;
+            }
+            blockquote:before, blockquote:after, q:before, q:after {
+                content: none;
+            }
+            :focus {
+                outline: 0 none;
+            }
+            ins {
+                text-decoration: none;
+            }
+            del {
+                text-decoration: line-through;
+            }
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+            /*end reseting browser specific values*/
+
+            body {
+                background-color: #000080; 
+                color: #000000; 
+                font-family: "deutschebahn hinterlichtnegativ","deutschebahn auflichtpositivcon", "arial", sans-serif;  /* Schriftarten für die Webbahnhofstafel*/
+                width: 100%;
+            }
+            .titleBar { /* Eigenschaften für die Titelleisten allgemein */
+                background-color: #000080;
+                font-size: 42px;
+                font-weight: bold;
+                overflow: hidden;
+                text-align: left;
+                width: 100%;
+                color: #FFFFFF;
+                text-align: center;
+            }
+            .titleBar .additionalLanguage { /* Eigenschaften für Nebensprachen */
+                font-size: 26px;
+                font-style: italic;
+            }
+            .titleBar * {
+                margin: 5px;
+            }
+
+            .titleBarLeft { /* Bereich links in der Titelleist (aktuell mit der Uhrzeit belegt)*/
+                float : left;
+                width : 200px;
+                height : 100%;
+                text-align: left;
+            }
+
+            .titleBarRight { /* Bereich rechts in der Titelleist (aktuell mit den Logos belegt)*/
+                float : right;
+                height : 100%;
+            }
+
+            .logo { /* Eigenschaften für Logos */
+                height: 40px;
+                margin: 5px;
+            }
+
+            .titleBarCenter { /* mittlerer Bereich in der Titelleist (aktuell mit der Überschrift belegt)*/
+                margin : 5px 210px 0 200px;
+                min-height : 100%;
+                height : 100%;
+                text-align: center;	
+            }
+
+            .titleBarClear {
+                clear: both;
+            }
+
+            table {
+                clear: both;
+                table-layout: fixed;
+                text-align: left;
+                width: 100%;
+            }
+            table * th, table * td { 
+                padding: 7px; /* Abstand des Inhalts der Tabellenzellen zum Zellenrand*/
+                border-bottom: 3px solid #000080;
+
+            }
+            thead th {
+                background-color: #FFFF00;
+                overflow: hidden;
+            }
+            thead th .firstLanguage { /* Eigenschaften des Spaltenkopfs für die Hauptsprache */
+                display: block;
+                font-size: 32px;
+                font-weight: bold;
+            }
+            thead th .additionalLanguage { /* Eigenschaften des Spaltenkopfs für die Nebensprache */
+                font-size: 21px;
+                font-style: italic;
+                font-weight: normal;
+            }
+            tbody tr td { /* Eigenschaften der Zellen für die Spalten Nach Über und Gleis */
+                background-color: #000080;
+                border-bottom: 1px solid #000080;
+                color: #FFFFFF;
+                overflow: hidden;
+            }
+            .column_time { /* Eigenschaften für die Spalte Zeit */
+                width: 115px;
+            }
+            .cell_time { /* Eigenschaften für eine Zelle in der Spalte Zeit */
+                background-color: #FFFFFF;
+                color: #000080;
+                text-align: left;
+            }
+            .time, .tripID {
+                display: block;
+            }
+            .time { /* Eigenschaften für eine die Zeit in einer Zelle in der Spalte Zeit */
+                font-size: 32px;
+            }
+            .tripID { /* Eigenschaften für eine die Zugnummer in einer Zelle in der Spalte Zeit */
+                font-size: 18px;
+            }
+            .path { /* Eigenschaften für den Laufweg in der Spalte Über */
+                font-size: 21px;
+            }
+            .imgflughafen { /* Eigenschaften für Grafik im Laufweg */
+                width: 21px;
+                height: 21px;
+            }
+            .imgstadion { /* Eigenschaften für Grafik im Laufweg */
+                width: 25px;
+                height: 16px;
+            }
+            .to_from { /* Eigenschaften für die Zelle in der Spalte Von / Nach */
+                font-size: 26px;
+                font-weight: bold;
+
+            }
+            .platform { /* Eigenschaften für die Zelle in der Spalte Gleis */
+                font-size: 26px;
+                font-weight: bold;
+                text-align: center;
+            }
+            .tripMessage { /* Eigenschaften für die Abweichungsmeldungen in der Spalte Über */
+                color: #FFFF00;
+                font-size: 17px;
+            }
+            .column_to_from { /* Eigenschaften für die Spalte Von / Nach */
+                width: 25%;
+            }
+            .column_track { /* Eigenschaften für die Spalte Gleis */
+                width: 110px;
+            }
+            #additionalTextContainer { /* Eigenschaften für die Hinweismeldung und Großstörungsmeldung */
+                background-color: #FFFFFF;
+                bottom: 0;
+                overflow: hidden;
+                position: fixed;
+                width: 100%;
+            }
+            .additionalText { /* Eigenschaften für die Hinweismeldung und Großstörungsmeldung */
+                border-top: 1px solid #000080;
+                color: #000080;
+                font-size: 32px;
+                padding-top: 3px;
+                text-align: left;
+                width: 100%;
+                height: 40px;
+                display: flex !important;
+                justify-content: center;
+                align-items: center;
+            }
+            #errorText {  /* Eigenschaften für den kleinen Fehlertext */
+                background-color: #FFFFFF;
+                bottom: 0;
+                font-size: 18px;
+                position: fixed;
+                right: 0;
+            }
+            .path, .to_from, .tripMessage, .platform, .additionalText {
+                display: block;
+                overflow: hidden;
+                position: relative;
+                white-space: nowrap;
+            }
+
+            .column_wing_symbol {
+                width: 25px;
+            }
+
+            .wingPicture {
+                max-height: 40px;
+                max-width: 20px;
+            }
+
+            .impressumLink {
+            color: #FFFFFF;
+            font-size: 20px;
+            vertical-align: top;
+            }
+
+            #fullScreenOverlay { /* Eigenschaften für Text-Meldungen über die gesamte Seite*/
+                background-color: rgb(255, 255, 255);
+                display: none;
+                height: 100%;
+                opacity: 0.8;
+                position: fixed;
+                text-align: center;
+                top: 0px;
+                vertical-align: middle;
+                width: 100%;
+                z-index: 200;
+            }
+        
+            #fullScreenMessage { /* Eigenschaften für Text-Meldungen über die gesamte Seite*/
+                font-size: 62px;
+                color: red;
+                position: relative;
+                top: 50%;
+            }
+
+            .additionalStyling {
+                overflow: visible; 
+                white-space: nowrap; 
+                border: none; 
+                position: relative; 
+                padding: 0px; 
+                margin: 0px; 
+                left: 0px;
+            }
+		</style>
+        <link rel="shortcut icon" type="image/x-icon" href="https://iris.noncd.db.de/wbt/favicon.ico">
+      <script type="module" crossorigin src="../../assets/web_station_sign-c893e45c.js"></script>
+      <link rel="modulepreload" crossorigin href="../../assets/modulepreload-polyfill-3cfb730f.js">
+    </head>
+	<body>
+		<noscript>
+			<div style="background-color: '#FFFFFF'; height: 100%; position: fixed; top: 0; width: 100%; z-index: 200;
+						filter: alpha(opacity=50); opacity: 0.8; vertical-align: middle; text-align: center;">
+				<div style="font-size: 62px; color: red; position: relative; top: 50%;">
+					Diese Seite ben&ouml;tigt Javascript zur Darstellung.
+				</div>
+			</div>
+		</noscript>
+		<div class="titleBar">
+            <div class="titleBarLeft">
+                <span id="actualTime">00:00</span>
+                <script>
+                    var date = new Date();
+                    document.getElementById("actualTime").innerHTML = date.getHours() + ":" + String(date.getMinutes()).padStart(2, "0");
+                    function setDate() {
+                        var date = new Date();
+                        document.getElementById("actualTime").innerHTML = date.getHours() + ":" + String(date.getMinutes()).padStart(2, "0");
+                    }
+                    setInterval(setDate, 1000);
+                </script>
+            </div>
+            <div class="titleBarRight" id="tbr"></div>
+            <div class="titleBarCenter"><span id="tafelHeader"></span></div>
+            <div class="titleBarClear"></div>
+        </div>
+        <div id="tafelContent">
+            <table id="0" class="" style="margin-bottom: 0px;"><colgroup><col class="column_time"><col class="column_to_from"><col class="column_wing_symbol"><col class="column_via"><col class="column_track"></colgroup>
+                <thead>
+                    <tr>
+                        <th><span class="firstLanguage" id="col1"></span></th>
+                        <th><span class="firstLanguage" id="col2"></span></th>
+                        <th><span class="firstLanguage">&nbsp;</span></th>
+                        <th><span class="firstLanguage" id="col3"></span></th>
+                        <th><span class="firstLanguage" id="col4"></span></th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </div>
+        <div id="additionalTextContainer"></div>
+        
+	</body>
+</html>
